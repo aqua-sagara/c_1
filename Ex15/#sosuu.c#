@@ -1,0 +1,20 @@
+#include <stdio.h>
+int isprime(int);
+main()
+{
+  int a[10][10],i,j=0,b;
+  for(i=2;i<=1000;i++){
+    if( 1==isprime(i) )
+     
+      j++;
+      
+    }
+  }
+  printf("\n");
+
+  return;
+
+  // for(j=0;j<10;j++){
+  //   printf("%d")
+  //	}
+  // printf("\n")

@@ -1,0 +1,13 @@
+#include <stdio.h>
+main(){
+  int i,j,k,l,m,sum,average,res;
+  printf("Enter5numbers \n");
+  scanf("%d%d%D%D%d",&i,&j,&k,&l,&m);
+sum=i+j+k+l+m;
+average=(i+j+k+l+m)/5;
+res=(i+j+k+l+m)%5;
+
+printf("合計＝%d\n",sum);
+printf("平均（商）＝%d\n",average);
+printf("平均（余り）＝%d\n",res);
+}

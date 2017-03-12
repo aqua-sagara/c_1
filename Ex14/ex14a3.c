@@ -1,0 +1,22 @@
+#include <stdio.h>
+double sum(int);
+
+main()
+{
+  int n,a;
+  printf("整数nを入力して下さい.\n");
+  scanf("%d",&n);
+  a=sum(n);
+  printf("1から%dまでの和は%dです。\n",n,a);
+
+}
+double sum (int n)
+{
+  int i;
+
+  int sum=0;
+  for(i=1;i<=n;i++){
+    sum+=i;
+  }
+ return sum;
+}

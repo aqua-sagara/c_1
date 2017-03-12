@@ -1,0 +1,5 @@
+#include <stdio.h>
+main() {
+  int year;
+  printf("西暦を入力してください\n");
+  scanf("%d",&year);

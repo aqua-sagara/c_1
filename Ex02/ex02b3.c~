@@ -1,0 +1,12 @@
+#include <stdio.h>
+main()
+{
+  int a;
+  
+  printf("整数値を入力して下さい:");
+  
+  scanf("%d",&i);
+  
+  printf("入力された値は___です。\n",___);
+  
+}

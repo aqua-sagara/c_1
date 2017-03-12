@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int gcd(int int);
+int x,y,a4;
+
+printf("Input two numbers\n");
+scanf("%d,%d",&x,&y);
+if(x>0&&y>0)
+  printf("GCD of %d and %d is %d\n",x,y,a4);
+ else if (x=0||y=0)
+   break;
+ else {
+   printf("Input positive numbers again\n");
+printf("Input two numbers\n");
+ }
+double gcd(int x,int y)
+{
+  int z,a,b;
+ if(x>y){
+  while(z==0)
+    {
+     
+	z=x%y;
+	x=y;
+	y=z;
+    }
+ }
+ if(y>x){
+   a=y;
+   b=x;
+   while(z==0)
+     {
+	z=a%b;
+	a=b;
+	b=z;
+     }
+ }
+ return b;
+}
+    

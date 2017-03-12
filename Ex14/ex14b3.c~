@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <math.h>
+#define EPS 1.0e-6
+
+double f(double, double);
+double df(double, double);
+
+main()
+{
+  double a,x,fx,dfx;
+  printf("input a number:");
+  scanf("%lf",&a);
+  x=a;
+  printf("x(k-1)\t\tfx\t\tdfx\t\tx(k)\t\tf(x,%f)",a);
+  while((fx=f(x,a))>EPS)
+    {
+      dfx =df(x);
+      printf("%f\t%f\t%f",x,fx,dfx);
+      x=x-fx/dfx;
+      printf("\t%f\t%12.10f\n",x,f(x,a))
+	}
+  printf("squrt(%f) : %12.10f\n",a,x);
+
+  double f(double x, double a)
+  {
+    double fx;
+    fx=x*x-a;
+    return fx;
+  }
+
+  double df(double x)
+  {
+    double dfx;
+    dfx =2.0*x;
+    return dfx;
+  }

@@ -1,0 +1,3 @@
+du | sort -k 1,1 -nr | head -5 > bigdir.txt
+ ls -l | sort -k 5,5 -n | more
+ls -l | grep .txt | wc -l

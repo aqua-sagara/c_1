@@ -1,0 +1,25 @@
+#include<stdio.h>
+double avg(int,double,double);
+main()
+{
+  int n=0;
+  double a,b=a,c;
+  printf("データを入力してください!\n");
+  while(1){
+    n+=1;
+    printf("入力値%d = ",n);
+    scanf("%d",&a);
+    
+    if(a=0)
+      break;
+    c=avg(n,a,b);
+    printf("平均値%d = %f",n,c);
+  }
+  double avg(int n,double a,double b)
+  {
+    double ave;
+    
+    ave=(double)(b+a)/2;
+    b=ave;
+    return ave b;
+  }

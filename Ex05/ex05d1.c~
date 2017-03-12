@@ -1,0 +1,15 @@
+#include <stdio.h>
+main()
+{
+  int n,m,x,y;
+  printf("m,nを入力してください\n");
+  scanf("%d%d",&m,&n);
+  x=m%n;
+  printf("%d%%d=%d\n",m,n,x);
+  while(1){
+  
+    printf("%d%%d=%d\n",n,x,y);
+    if(y==0)break;
+  }
+  printf("最大公約数は%dです\n",x);
+}

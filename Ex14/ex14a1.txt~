@@ -1,0 +1,12 @@
+                    関数　　　　　　計算
+No.0,  n:3        main()       　　 　初期値
+No.3,  n:3        function1()        　初期値
+No.4,  n:9        function1()         　3*3
+No.1,  n:9        main()              　3*3
+No.5,  n:0        function2()        　n=0
+No.6,  n:81　　 function2()        　9*9
+No.2,  n:81      main()              　9*9
+
+
+
+

@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+  int x[2],y[2],naiseki;
+  printf("ベクトルx：3個の整数を空白で区切って入力してください：");
+  scanf("%d",&x[2]);
+ printf("ベクトルy：3個の整数を空白で区切って入力してください：");
+  scanf("%d",&y[2]);
+  naiseki=x[0]*y[0]+x[1]*y[1]+x[2]*y[2];
+  printf("xとyの内積は%dです\n",naiseki);
+  if(naiseki==0)
+    printf("2つのベクトルは直交します\n");
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+#define KOU 10
+
+double kaijo(int double);
+main()
+{
+  int x;
+  x=kaijo(i,y);
+  if(KOU==1)
+    printf("e=1\n");
+  if(KOU>1)
+    printf("e=%f\n,x"0);
+  
+}
+double kaijo(int i,double y)
+{
+  double sum=1;
+  y=1;
+  for(i=1;i<KOU;i++){
+    y=y*i;
+    sum+=y;
+ }
+  

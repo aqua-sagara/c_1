@@ -1,0 +1,8 @@
+#inclue<stdio.h>
+main()
+{
+  int i,date[10]={1,12,23,34,45,56,67,78,89,90};
+  printf("添字を入力してください:\n");
+  scanf("%d",&i);
+  printf("date[%d]=%d\n",i,date);
+}

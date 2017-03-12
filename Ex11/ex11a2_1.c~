@@ -1,0 +1,31 @@
+
+#include <stdio.h>
+#define ROW 2
+#define COLUMN 3
+
+main()
+{
+  int matrix_1[2][3],matrix_2[2][3],matrix_3[2][3],i,j; 
+  
+  printf("Input %d x %d matrix as matrix_1:\n", ROW, COLUMN);
+  for(i=0;i<2;i++)
+    for(j=0;j<3;j++)
+      scanf("%d", &matrix_1[i][j]);
+      
+  printf("Input %d x %d matrix as matrix_2:\n", ROW, COLUMN);
+  for(i=0;i<2;i++)
+    for(j=0;j<3;j++)
+      scanf("%d", &matrix_2[i][j]);
+      
+  /* この部分を補う */
+  
+  printf("Result of matrix_1 + matrix_2:\n");
+  for(i=0;i<2;i++){
+    for(j=0;j<3;j++){
+      matrix_3[i][j]=matrix_1[i][j]+matrix_2[i][j];
+      printf("%2d ", matrix_3[i][j]);
+    }
+    printf("\n");
+ }
+}
+

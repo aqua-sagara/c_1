@@ -1,0 +1,26 @@
+#include <stdio.h>
+main()
+{
+  int i,j,a[3][4],b=0,c=0;
+  double ave1[3],ave2[4];
+  printf("Enter 3 x 4 data\n");
+  for(i=0;i<3;i++)
+    {
+      for(j=0;j<4;j++)
+	{
+	  scanf("%d",&a[i][j]);
+	}
+    }
+  printf("Data and average\n");
+ for(i=0;i<3;i++)
+    {
+      for(j=0;j<4;j++)
+	{
+	 printf("    %d",a[i][j]);
+	}
+      b+=a[i][j];
+      ave1=(double)b/(double)5
+	printf("%f",ave1);
+      printf("\n");
+    }
+}

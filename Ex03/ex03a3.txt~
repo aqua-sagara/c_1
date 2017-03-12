@@ -1,0 +1,7 @@
+#include <stdio.h>
+main()
+{
+  double x;
+  x = (5 + 7 + 3 + 8 + 9)/5;
+  printf("%f\n", x);
+}

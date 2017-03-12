@@ -1,0 +1,9 @@
+(× ) int 1st;文頭の最初はアンダーバーかアルファベットだから
+(○ ) int _1st;
+(× ) int while;特別な意味を持つ単語は使えない
+(○ )int ave;
+(× ) int result#2;記号を含む
+(× ) int no1, no2;記号を含む
+(× ) int no3  no4;
+(× ) int sum-ave;記号を含む
+(○ ) int sum_ave;

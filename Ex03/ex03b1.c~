@@ -1,0 +1,7 @@
+#include <stdio.h>
+main()
+{
+    double v;
+    scanf("%f",v)
+    printf("%f\n", v)
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+double ondo(int)
+main()
+{
+  int i;
+  for(i=0;i<=100;i+=5){
+a4= ondo(a2);
+ printf("%d  %f\n",i,a4);
+
+
+}
+  double ondo(int i);
+  {
+    double y;
+    y=(double)9*i/(double)5+32;
+    return y;
+  }

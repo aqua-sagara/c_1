@@ -1,0 +1,7 @@
+#include<stdio.h>
+main()
+{
+int score[4]
+  printf("5人分の評点を入力して下さい。\n");
+  scanf("%d",&score[4]);
+}

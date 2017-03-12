@@ -1,0 +1,20 @@
+#include <stdio.h>
+main()
+{
+
+  int i,j,a[10][10],a,b;
+  printf("２次元配列aの行数、列数を入力してください：\n");
+  scanf("%d%d",&a,&b);
+  for(i=0;i<a;i++){
+    for(j=0;j<b;i++){
+      scanf("%d",&a[i][j]);
+    }
+  }
+  printf("配列aの要素値を表示します\n");
+ for(i=0;i<a;i++){
+    for(j=0;j<b;i++){
+      printf("a[%d][%d]= %d ",i,j,a[i][j]);
+    }
+    printf("\n");
+ }
+}
